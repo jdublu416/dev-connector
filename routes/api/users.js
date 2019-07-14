@@ -53,7 +53,7 @@ router.post(
         avatar,
         password
       });
-      //before saving user to db, create a salt to hash the password
+      //before saving user to db, create a salt to hash the password(never send an unencrypted password to db)
       const salt = await bcrypt.genSalt(10);
 
       user.password = await bcrypt.hash(password, salt);
