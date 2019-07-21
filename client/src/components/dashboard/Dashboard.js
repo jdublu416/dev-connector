@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 const Dashboard = ({ getCurrentProfile, auth, profile }) => {
   useEffect(() => {
     getCurrentProfile();
+//eslint-disable-next-line
   }, []);
 
   return (
