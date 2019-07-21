@@ -20,7 +20,6 @@ import Alert from './components/layout/Alert';
 import Dashboard from './components/dashboard/Dashboard';
 import PrivateRoute from './components/routing/PrivateRoute';
 
-
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
