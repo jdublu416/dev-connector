@@ -87,7 +87,7 @@ const AddEducation = ({addEducation, history}) => {
                 toggleDisabled(!toDateDisabled);
               }}
             />{' '}
-            Current Job
+            Currently Enrolled
           </p>
         </div>
         <div className='form-group'>
