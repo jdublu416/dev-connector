@@ -154,7 +154,7 @@ router.delete('/', auth, async (req, res) => {
 
     //Remove profile
     await Profile.findOneAndRemove({ user: req.user.id });
-    //Reove User
+    //Remove User
     await User.findOneAndRemove({ _id: req.user.id });
 
     res.json({ msg: 'User deleted' });
