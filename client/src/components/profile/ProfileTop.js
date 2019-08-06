@@ -35,7 +35,7 @@ const ProfileTop = ({
           </a>
         )}
         {social && social.facebook && (
-          <a href='#' target='_blank' rel='noopener noreferrer'>
+          <a href={social.facebook} target='_blank' rel='noopener noreferrer'>
             <i className='fab fa-facebook fa-2x' />
           </a>
         )}
