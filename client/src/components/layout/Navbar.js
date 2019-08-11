@@ -54,7 +54,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   );
 };
 
-Navbar.protoTypes = {
+Navbar.propTypes = {
   logout: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired
 };
