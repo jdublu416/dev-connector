@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb+srv://janet123:janet123@devconnector-l8qnl.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret",
+    "githubClientId": "ba02744bb0c73f6fe0b1",
+    "githubSecret":"f3c37b816fb88d512df5c4ad1a4e5ca2c533fb19"
+
+}
